@@ -5,6 +5,5 @@ number_list = list(range(10, 251))
 new_list = []
 for i in number_list:
     if i % 20 == 0:
-        #print(f"елемент {number_list.index(i) + 1:<3} = {i}")
-        new_list.append(i)
-print(new_list)
+        number_list.remove(i)
+print(number_list)
