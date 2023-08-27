@@ -12,7 +12,7 @@ string_split = string.split(" ")
 new_string = []
 
 for word in string_split:
-    if word: # не розумію чому ця строка працює саме так, тобто не розумію умову. написала саме так, бо перебирала всі варіанти, які спадали на думку.
+    if word: 
         new_string.append(word)
 
 print("список без пропусків:", new_string)
