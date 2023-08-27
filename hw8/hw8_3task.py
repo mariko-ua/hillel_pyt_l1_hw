@@ -6,7 +6,7 @@
 import random
 list_random = [
     random.randint(-100, 100)
-    for i in range(4)
+    for i in range(15)
 ]
 print(list_random)
 for i in list_random:
