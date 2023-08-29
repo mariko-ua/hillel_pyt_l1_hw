@@ -10,11 +10,11 @@ list_random = [
 ]
 print(list_random)
 for i in list_random:
-    if sum(list_random, i % 2) > sum(list_random, i % 2 == 0):
+    if sum(i for i in list_random if i % 2) > sum(i for i in list_random if i % 2 == 0):
         print("yes")
         break
     else:
         print("no")
         break
-print("непарні: ", sum(list_random, i % 2))
-print("парні: ", sum(list_random, i % 2 == 0))
+print("непарні: ", sum(i for i in list_random if i % 2))
+print("парні: ", sum(i for i in list_random if i % 2 == 0))
