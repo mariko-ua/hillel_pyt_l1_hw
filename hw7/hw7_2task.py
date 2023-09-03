@@ -8,7 +8,7 @@
 
 string = (input("Напишіть перші дві строки улюбленого вірша: "))
 
-string_split = string.split(" ")
+string_split = string.split()
 new_string = []
 
 for word in string_split:
